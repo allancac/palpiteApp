@@ -4,7 +4,9 @@
   "description": "App to receive customer suggestions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "star":"next start",
+    "build":"next build"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/allancac/palpiteApp/issues"
   },
-  "homepage": "https://github.com/allancac/palpiteApp#readme"
+  "homepage": "https://github.com/allancac/palpiteApp#readme",
+  "dependencies": {
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
