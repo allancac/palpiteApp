@@ -1,19 +1,18 @@
 import React from 'react';
 
-import '../css/styles.css';
+import 'tailwindcss/tailwind.css'
+import '../styles/globals.css'
 
-/* O NextJS carrega automaticamente o _app.js como página inicial
-  Um componente espera como parâmetro um outro componente e as propriedades desse componente.
-*/
+import Header from '../components/Header';
+
 const MyApp = ({ Component, pageProps }) => {
-
-  /* "..." é uma técnica chamada de spread que 'espalha' todas propriedades do objeto pageprops
-    no componente atual
-  */
   return (
     <div>
-      <h1>My APP</h1>
-      <Component {...pageProps} />
+      <Header />
+      <div className='container mx-auto'>
+        <Component {...pageProps} />
+      </div>
+
     </div>
   )
 }

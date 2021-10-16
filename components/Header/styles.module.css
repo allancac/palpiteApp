@@ -1,0 +1,10 @@
+.vermelho {
+  color: red;
+  font-weight: bolder;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  @apply bg-gray-200 md:bg-blue-800 lg:bg-red-300 p-4;
+}
