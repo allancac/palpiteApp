@@ -5,9 +5,7 @@ const Sobre = () => {
   return (
     <div>
       <h1>Sobre</h1>
-      <div>
-        <Link href='/'><a>Principal</a></Link>
-      </div>
+
     </div>
   )
 }

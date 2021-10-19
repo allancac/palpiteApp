@@ -5,9 +5,7 @@ const Contato = () => {
   return (
     <div>
       <h1>Contatos</h1>
-      <div>
-        <Link href='/'><a>Principal</a></Link>
-      </div>
+
     </div>
   )
 }

@@ -4,6 +4,7 @@ import 'tailwindcss/tailwind.css'
 import '../styles/globals.css'
 
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const MyApp = ({ Component, pageProps }) => {
   return (
@@ -12,6 +13,7 @@ const MyApp = ({ Component, pageProps }) => {
       <div className='container mx-auto'>
         <Component {...pageProps} />
       </div>
+      <Footer />
 
     </div>
   )

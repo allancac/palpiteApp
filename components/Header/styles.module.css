@@ -1,10 +1,19 @@
-.vermelho {
-  color: red;
-  font-weight: bolder;
-  font-size: large;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.wrapper {
+  @apply bg-gray-200 p-4;
 }
 
-.wrapper {
-  @apply bg-gray-200 md:bg-blue-800 lg:bg-red-300 p-4;
+.containerHeader {
+  @apply container mx-auto;
+}
+
+.img {
+  @apply mx-auto relative top-7;
+}
+
+.navMenu {
+  @apply bg-gray-500 p-4 shadow-lg text-center;
+}
+
+.navLinks {
+  @apply px-4 hover:underline;
 }
