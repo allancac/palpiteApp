@@ -1,5 +1,5 @@
 .wrapper {
-  @apply bg-gray-200 p-4;
+  @apply bg-blue-100 p-4;
 }
 
 .containerHeader {
@@ -11,7 +11,7 @@
 }
 
 .navMenu {
-  @apply bg-gray-500 p-4 shadow-lg text-center;
+  @apply bg-blue-200 p-4 shadow-lg text-center;
 }
 
 .navLinks {
