@@ -3,19 +3,14 @@ import React from 'react';
 import 'tailwindcss/tailwind.css'
 import '../styles/globals.css'
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Layout from '../components/Layout';
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <div>
-      <Header />
-      <div className='container mx-auto'>
-        <Component {...pageProps} />
-      </div>
-      <Footer />
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
 
-    </div>
   )
 }
 
