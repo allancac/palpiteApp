@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "palpitebox-329519",
+  "private_key_id": "9b4a821b7174827bd6678fbfdb73e229947fa2df",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC2ULbcUbiHQoG6\nQ7Xrxs3B2mqs9gxeqaLKC5zWv2cEOD9Y17V9Acftp8BfvGbp0MAZDUPptq7EcrJD\nJRrt9y6bHsE084FmFMUGV3bhcL5rPuyT1OX0LfHbC6VOZOtpC8xO6dsxWbtRVYuY\nVuL0Q1AfoYtmnxe+rP4UH/ZVEA194FPyhUE7vsMw0YwePOGXZiEL/URxbOERuUXE\nNl8jx0I6/F9TjBEm3JC0QpSZLq8UBM1pqzKnHgPEmzCcEaVBVZdMq0o1knomAoYI\n2dxMqWX1Nwjzbm0pqFUfx6ETTqwMQ2U8O6+FsYoqy50lOvfhKf9TunZ+uS2rsE2Q\nzW35IzAZAgMBAAECggEAFuJVFEeKXClWw5dkhNv3Og9yl2jqTubdFkj/M/IMz2Se\nCEafMw81AK7Z60pojThqJwWEEkMfdxdsf8LEZBKZk4KjPsRtPW/QS/D7l5BBc+W5\n5/5vqhwq66iaZGzaIwfblRuD1hMiJjM7f/DcBkv9Xn22U+MWpb+XbtWU48LNkWXk\n5QqLAOSIrWnFiJBruEMX3UawRwf04yA6YLahl923JCEfBsd3LZaSc4Y6AGNt3SJr\n93Un3DeXKGJjgErx+LNzlL1/05doB1WLS0XzWg696XF1D99rDlmQIWsNuzF75HUp\nEOSfIE0KC6cB0LdcXUK9v3IW6xDvKY2HarQaSP+nhwKBgQDjds5O5tbg3pGGNQVh\nlsCBgNj9RIlUYryE10e/LnSc8uL/zc8iG3pu/bS106dEJ3GG6EACxgoscvL9YYEq\n6PYmac1rQLY5lRFEd5jAOgetWcdc3TfqyFsGo4ICiyyYZS3V8DmN+hI5M5+XTtmD\nDyTOiHZBI7aEEcBTTMXWN9KErwKBgQDNL+sKWnBYD6DlkmSRnGIr4lgUxPNR1Sm8\n3bwcxWn+9ZdeamI0QmK8wD9uUK4Q+XCWu2RPWH9le2dBfI5yZlp2nI2iwb5M6ymt\nof/wp5dCr9w+yZsg2fTdEti1ntbHXQGQdQIv/3pLDp09Ns0ZPtLX0MZLjLwVy9p8\nH4UV2zLZtwKBgQDac1MXe6KKO7ZOycTtQDaJKRE7ywKIxHqAqbAB77+Wq71OJn3z\nJ6ihx44xwZ82WRsykQJIp6FFpu+uYGIIr8sWgS4C/xcCniMDOki88/5DgaFxkhMN\nrHWfHpDRmI+vnBw1Box/ydaOkQGH8vX6ZCTZJT1MudujYtjuJyEo5luLiQKBgQCV\nbgBOWe7XMwqKJkL3iFw2eXCML6LERelPkmwcx+iZtWG3cOJ0DKS7sYaAYGFkG0TT\ngUVcQ6cD0QsxtfRHfCMFnp3HmjFs8xY3TXOHX4XZGxna4BgJpLGfDsqj+jmQlzs8\naPpe2j/Fya7Zlb9oU0hZw8Gl46hWd092db4GXMx7oQKBgQCaVaCEnXUNImiDatH2\nFcnfzp6cAo3k4jR5oLEgDSzNWNgfiL+wleUYstGEPRCoTbHTA6MU1sjkRHfbG+bb\nb/f7DE4zucro6YMXmezodzW9F2PZS3F8iluQljY6Vlix/mhJFRDH6AUdsp2feqmq\nYrj4fHKxTc+sTPJz7eq6UBr4aw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "palpitebox@palpitebox-329519.iam.gserviceaccount.com",
+  "client_id": "115357659919977471489",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/palpitebox%40palpitebox-329519.iam.gserviceaccount.com"
+}

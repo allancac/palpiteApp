@@ -1,5 +1,5 @@
 .wrapper {
-  @apply bg-blue-100 p-4;
+  @apply bg-gray-200 p-4;
 }
 
 .containerHeader {
@@ -7,13 +7,13 @@
 }
 
 .img {
-  @apply mx-auto relative top-7;
+  @apply mx-auto relative top-8;
 }
 
 .navMenu {
-  @apply bg-blue-200 p-4 shadow-lg text-center;
+  @apply text-lg bg-gray-400 p-4 shadow-lg text-center font-bold;
 }
 
 .navLinks {
-  @apply px-4 hover:underline;
+  @apply px-6 hover:underline;
 }
