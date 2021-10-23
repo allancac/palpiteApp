@@ -33,14 +33,14 @@ export default async (req, res) => {
 
     const row =
     {
-      nome: data.nome,
-      email: data.email,
-      whatsapp: data.whatsapp,
-      critica: data.critica,
-      nota: data.nota,
-      cupom: cupomValue,
-      promo: promoValue,
-      data_preenchimento: moment().format('DD/MM/YYYY HH:mm:ss')
+      Nome: data.Nome,
+      Email: data.Email,
+      Whatsapp: data.Whatsapp,
+      Critica: data.Critica,
+      Nota: data.Nota,
+      Cupom: cupomValue,
+      Promo: promoValue,
+      Data_preenchimento: moment().format('DD/MM/YYYY HH:mm:ss')
     }
 
     const sheet = doc.sheetsByIndex[1];
