@@ -1,5 +1,5 @@
-import { GoogleSpreadsheet } from'google-spreadsheet';
-import credenciais  from '../../credenciais.json';
+import { GoogleSpreadsheet } from 'google-spreadsheet';
+import credenciais from '../../credenciais.json';
 const arquivo = require('../../arquivo.json').id;
 
 export default async (req, res) => {
@@ -21,8 +21,8 @@ export default async (req, res) => {
       showCoupon: cell[0],
       discount: cell[1],
       message: cell[2].split("%")
-     
-  
+
+
     }))
 
   } catch (error) {

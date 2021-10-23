@@ -8,7 +8,7 @@ const Header = () => {
     <React.Fragment>
       <div className={styles.wrapper}>
         <div className={styles.containerHeader}>
-          <Link href='/pesquisa'>
+          <Link href='/'>
             <a><img className={styles.img} src="/logoPalpitebox.png" alt="PalpiteApp" /></a>
           </Link>
         </div>

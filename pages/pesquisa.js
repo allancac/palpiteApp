@@ -5,19 +5,21 @@ const Pesquisa = () => {
 
   const save = async () => {
     const dados = {
-      nome: 'aaa',
-      email: 'bbb',
-      whatsapp: 'ccc'
+      nome: 'Allan',
+      email: 'allan@email.com',
+      whatsapp: '21987456657',
+      critica: "bom atendimento!",
+      nota: '3'
     }
     try {
-      const response = await fetch('/api/save', {
+      const response = await fetch('/api/post-comment', {
         method: 'POST',
         body: JSON.stringify(dados)
       })
       const data = await response.json()
       console.log(data)
     } catch (error) {
-
+      console.log(error)
     }
 
   }
