@@ -45,7 +45,12 @@ export default async (req, res) => {
 
     const sheet = doc.sheetsByIndex[1];
     await sheet.addRow(row);
-    res.end(req.body)
+    res.end(JSON.stringify({
+      showCupom: cupomValue !== '',
+      cupomValue,
+      promoValue,
+      data: row.Data_preenchimento
+    }))
 
   } catch (error) {
     return error.message;

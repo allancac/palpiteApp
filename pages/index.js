@@ -2,8 +2,9 @@ import React from 'react';
 import Link from 'next/link'
 import useSWR from 'swr'
 
-const fetcher = (...args) => fetch(...args).then(resultado => resultado.json())
+
 const Index = () => {
+  const fetcher = (...args) => fetch(...args).then(resultado => resultado.json())
   const { data, err } = useSWR('/api/get-promo', fetcher)
   return (
     <div className='tracking-wider uppercase text-center text-lg font-bold leading-10 my-8'>
