@@ -1,13 +1,14 @@
 import React from 'react';
 import Link from 'next/link'
 import useSWR from 'swr'
-
+import PageTitle from '../components/pageTitle';
 
 const Index = () => {
   const fetcher = (...args) => fetch(...args).then(resultado => resultado.json())
   const { data, err } = useSWR('/api/get-promo', fetcher)
   return (
     <div className='tracking-wider uppercase text-center text-lg font-bold leading-10 my-8'>
+      <PageTitle title='Conte-nos sua opinião.' />
       <p >O nosso restaurante sempre busca o<br />
         melhor atendimento aos nossos clientes.<br />
         Por isso, estamos atentos à sua opinião/sugestão.
