@@ -3,7 +3,6 @@ import moment from 'moment';
 
 const arquivo = process.env.SHEET_ID
 const key = process.env.SHEET_PRIVATE_KEY
-console.log(key)
 const email = process.env.SHEET_CLIENT_EMAIL
 
 const genCupom = () => {
