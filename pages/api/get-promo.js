@@ -1,18 +1,23 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet';
 
+const keys = []
+keys.push(process.env.SHEET_PRIVATE_KEY1)
+keys.push(process.env.SHEET_PRIVATE_KEY2)
+keys.push(process.env.SHEET_PRIVATE_KEY3)
+const keyString = keys.join("")
+// console.log(keyString)
+
+// const key = process.env.SHEET_PRIVATE_KEY
 const arquivo = process.env.SHEET_ID
-const key = process.env.SHEET_PRIVATE_KEY
 const email = process.env.SHEET_CLIENT_EMAIL
-
 export default async (req, res) => {
-
   try {
     const doc = new GoogleSpreadsheet(arquivo);
     await doc.useServiceAccountAuth({
       type: "service_account",
       project_id: "palpitebox-329519",
       private_key_id: "9b4a821b7174827bd6678fbfdb73e229947fa2df",
-      private_key: key,
+      private_key: keyString,
       client_email: email,
       client_id: "115357659919977471489",
       auth_uri: "https://accounts.google.com/o/oauth2/auth",
